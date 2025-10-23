@@ -158,7 +158,7 @@ Inside `trading_bot.py`, adjust the `Config` class:
 
 ### 2. File-Based Credentials
 
-The bot reads credentials from files to keep them separate from the code. By default, it looks in `/home/Python/TradingBot/READ/`.
+The bot reads credentials from files to keep them separate from the code. By default, it looks in `YOUR_PATH/READ/`.
 
 - **Binance API**: (CredentialsTRADING)
   - API Key: `<YOUR_BINANCE_API_KEY>`
@@ -210,7 +210,7 @@ python trading_bot.py
    
    **Example cron job (runs every day at 00:05):**
    ```cron
-   5 0 * * * /usr/bin/python3 /home/Python/TradingBot/trading_bot.py >> /home/Python/TradingBot/LOG/cron.log 2>&1
+   5 0 * * * /usr/bin/python3 YOUR_PATH/trading_bot.py >> YOUR_PATH/LOG/cron.log 2>&1
    ```
 ## ⚠️Disclaimer
 **This is not financial advice.** Trading cryptocurrencies is highly speculative and carries a significant risk of loss. This software is provided "as-is" without warranty of any kind.
