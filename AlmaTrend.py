@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# https://www.tradingview.com/script/MpbXfOSo-Alma-SD-SuperTrend-Oquant/ code inspired by this script
 
 import numpy as np
 import pandas as pd
